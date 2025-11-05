@@ -14,6 +14,9 @@ namespace BLL
 
         private UsuarioMapper usuarioMapper;
         private CryptoManager cryptoManager;
+        public delegate void UsuariosCambiaronHandler();
+        public UsuariosCambiaronHandler NuevoUsuarioEvent;
+        public UsuariosCambiaronHandler UsuarioBorradoEvent;
 
         public UsuarioBLL()
         {
@@ -61,7 +64,8 @@ namespace BLL
             {
                 throw new Exception("No se pudo crear el usuario");
             }
-            SessionManager.Instance.SetUsuario(usuarioMapper.GetUsuarioByUsername(username));
+            
+            NuevoUsuarioEvent?.Invoke();
         }
 
         public void InitAdmin(string password) {
@@ -74,6 +78,17 @@ namespace BLL
         public bool ExisteUsuarioAdministrador()
         {
             return usuarioMapper.Listar().Exists(u => u.Tipo == TipoUsuario.Admin);
+        }
+
+        public List<Usuario> Usuarios()
+        {
+            return usuarioMapper.Listar();
+        }
+
+        public void Borrar(int id)
+        {
+            usuarioMapper.Eliminar(id);
+            UsuarioBorradoEvent?.Invoke();
         }
     }
 }

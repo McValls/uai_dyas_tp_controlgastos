@@ -1,4 +1,5 @@
-﻿using BLL;
+﻿using BE.ManejoUsuario;
+using BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,6 +36,7 @@ namespace TP_DYAS_Control_Gastos_2025
             try
             {
                 usuarioBLL.Login(username, password);
+                this.Dispose();
             }
             catch (Exception ex)
             {
@@ -56,6 +58,8 @@ namespace TP_DYAS_Control_Gastos_2025
             try
             {
                 usuarioBLL.InitAdmin(password);
+                SessionManager.Instance.SetUsuario(null);
+                this.Dispose();
             }
             catch (Exception ex)
             {
