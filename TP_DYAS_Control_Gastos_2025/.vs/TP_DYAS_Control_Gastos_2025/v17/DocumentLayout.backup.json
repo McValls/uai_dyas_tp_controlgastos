@@ -1,0 +1,722 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}|..\\BLL\\BLL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\bll\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\editarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\editarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\eliminarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\eliminarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\insertarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\insertarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientosporusuario.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarioporusername.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}|..\\BLL\\BLL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\bll\\movimientobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\01_create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\numerodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\numerodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\numerodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\numerodecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textopassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textopassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textopassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textopassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textonovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textonovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textonovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textonovacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\errorusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\errorusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textonovacio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textonovacio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textopassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textopassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\usercontrols\\textonovacio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:usercontrols\\textonovacio.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\tp_dyas_control_gastos_2025\\movimientoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:movimientoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\be\\entidades\\moneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\movimientomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\01_create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarioporusername.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenerusuarioporusername.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientosporusuario.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientosporusuario.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\obtenermovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\insertarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\insertarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\insertarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\eliminarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\eliminarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\editarusuarios.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\dal\\sql\\store procedures\\editarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MovimientoBLL.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BLL\\MovimientoBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\MovimientoBLL.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BLL\\MovimientoBLL.cs",
+              "RelativeToolTip": "..\\BLL\\MovimientoBLL.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:45:20.581Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditarMovimientos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EditarMovimientos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\EditarMovimientos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EditarMovimientos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\EditarMovimientos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-30T01:15:56.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ObtenerUsuarios.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerUsuarios.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\ObtenerUsuarios.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerUsuarios.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\ObtenerUsuarios.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T12:49:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NumeroDecimal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\NumeroDecimal.cs",
+              "RelativeDocumentMoniker": "UserControls\\NumeroDecimal.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\NumeroDecimal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\NumeroDecimal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:54:50.42Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\Mapper.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Mapper.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\Mapper.cs",
+              "RelativeToolTip": "..\\DAL\\Mapper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:09:33.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioMapper.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\UsuarioMapper.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\UsuarioMapper.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\UsuarioMapper.cs",
+              "RelativeToolTip": "..\\DAL\\UsuarioMapper.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAlwDYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:09:13.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioBLL.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BLL\\UsuarioBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\UsuarioBLL.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BLL\\UsuarioBLL.cs",
+              "RelativeToolTip": "..\\BLL\\UsuarioBLL.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:47:48.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EliminarMovimientos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EliminarMovimientos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\EliminarMovimientos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EliminarMovimientos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\EliminarMovimientos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-30T01:15:50.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InsertarUsuarios.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\InsertarUsuarios.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\InsertarUsuarios.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\InsertarUsuarios.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\InsertarUsuarios.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T12:49:59.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InsertarMovimientos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\InsertarMovimientos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\InsertarMovimientos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\InsertarMovimientos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\InsertarMovimientos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T12:50:09.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EliminarUsuarios.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EliminarUsuarios.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\EliminarUsuarios.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EliminarUsuarios.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\EliminarUsuarios.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T12:50:10.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarUsuarios.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EditarUsuarios.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\EditarUsuarios.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\EditarUsuarios.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\EditarUsuarios.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T12:50:12.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ObtenerUsuarioPorUsername.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerUsuarioPorUsername.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\ObtenerUsuarioPorUsername.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerUsuarioPorUsername.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\ObtenerUsuarioPorUsername.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-30T01:15:02.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ObtenerMovimientosPorUsuario.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerMovimientosPorUsuario.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\ObtenerMovimientosPorUsuario.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerMovimientosPorUsuario.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\ObtenerMovimientosPorUsuario.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-30T01:15:11.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObtenerMovimientos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerMovimientos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\ObtenerMovimientos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\Store Procedures\\ObtenerMovimientos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\ObtenerMovimientos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-30T01:15:21.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "01_create_db.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\01_create_db.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\01_create_db.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\SQL\\01_create_db.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\01_create_db.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-05T11:50:12.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TipoUsuario.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\TipoUsuario.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\TipoUsuario.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\TipoUsuario.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\TipoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:53:06.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Gasto.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Gasto.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\Gasto.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Gasto.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\Gasto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:56:59.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ingreso.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Ingreso.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\Ingreso.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Ingreso.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\Ingreso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:57:11.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAawFUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:47:44.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:47:43.206Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\Usuario.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:06:07.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TextoPassword.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoPassword.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.cs",
+              "RelativeToolTip": "UserControls\\TextoPassword.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBoAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:46:58.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TextoPassword.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoPassword.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\TextoPassword.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:45:51.855Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NumeroDecimal.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\NumeroDecimal.cs",
+              "RelativeDocumentMoniker": "UserControls\\NumeroDecimal.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\NumeroDecimal.cs",
+              "RelativeToolTip": "UserControls\\NumeroDecimal.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:56:57.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TextoNoVacio.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoNoVacio.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.cs",
+              "RelativeToolTip": "UserControls\\TextoNoVacio.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:25:35.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TextoNoVacio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoNoVacio.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\TextoNoVacio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:22:08.424Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorUserControl.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\ErrorUserControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ErrorUserControl.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\ErrorUserControl.cs",
+              "RelativeToolTip": "UserControls\\ErrorUserControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:33:12.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TextoNoVacio.Designer.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoNoVacio.Designer.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.Designer.cs",
+              "RelativeToolTip": "UserControls\\TextoNoVacio.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:29:07.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MovimientoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs",
+              "RelativeDocumentMoniker": "MovimientoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MovimientoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:17:30.448Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MovimientoForm.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs",
+              "RelativeDocumentMoniker": "MovimientoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs",
+              "RelativeToolTip": "MovimientoForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:20:40.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TextoPassword.Designer.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\TextoPassword.Designer.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoPassword.Designer.cs",
+              "RelativeToolTip": "UserControls\\TextoPassword.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:46:53.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TextoNoVacio.resx",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.resx",
+              "RelativeDocumentMoniker": "UserControls\\TextoNoVacio.resx",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\TextoNoVacio.resx",
+              "RelativeToolTip": "UserControls\\TextoNoVacio.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-05T01:32:19.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IValidable.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\IValidable.cs",
+              "RelativeDocumentMoniker": "UserControls\\IValidable.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\UserControls\\IValidable.cs",
+              "RelativeToolTip": "UserControls\\IValidable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T01:38:27.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:22:27.751Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:22:44.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Movimiento.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\Movimiento.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Movimiento.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\Movimiento.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv2IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:43:35.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Acceso.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\Acceso.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Acceso.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\Acceso.cs",
+              "RelativeToolTip": "..\\DAL\\Acceso.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:57:51.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MovimientoForm.Designer.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.Designer.cs",
+              "RelativeDocumentMoniker": "MovimientoForm.Designer.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.Designer.cs",
+              "RelativeToolTip": "MovimientoForm.Designer.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAASwOAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T00:40:26.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Moneda.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Moneda.cs",
+              "RelativeDocumentMoniker": "..\\BE\\Entidades\\Moneda.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\BE\\Entidades\\Moneda.cs",
+              "RelativeToolTip": "..\\BE\\Entidades\\Moneda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:46:34.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MovimientoMapper.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\MovimientoMapper.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\MovimientoMapper.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\DAL\\MovimientoMapper.cs",
+              "RelativeToolTip": "..\\DAL\\MovimientoMapper.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:09:07.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

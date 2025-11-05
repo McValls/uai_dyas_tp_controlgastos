@@ -1,0 +1,8 @@
+CREATE PROCEDURE EliminarUsuarios
+	@Id INT
+AS
+BEGIN
+	DELETE FROM Usuarios
+	WHERE Id = @Id;
+END;
+
