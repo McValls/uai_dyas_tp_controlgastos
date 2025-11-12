@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\ConfiguracionPrestamo.cs" />
     <Compile Include="Entidades\Gasto.cs" />
     <Compile Include="Entidades\Ingreso.cs" />
     <Compile Include="Entidades\Movimiento.cs" />

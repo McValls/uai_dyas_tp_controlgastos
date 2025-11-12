@@ -66,6 +66,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumenMovimientoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumenMovimientoForm.Designer.cs">
+      <DependentUpon>ResumenMovimientoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimuladorPrestamoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimuladorPrestamoForm.Designer.cs">
+      <DependentUpon>SimuladorPrestamoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ErrorUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,6 +124,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ResumenMovimientoForm.resx">
+      <DependentUpon>ResumenMovimientoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimuladorPrestamoForm.resx">
+      <DependentUpon>SimuladorPrestamoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\NumeroDecimal.resx">
       <DependentUpon>NumeroDecimal.cs</DependentUpon>
     </EmbeddedResource>

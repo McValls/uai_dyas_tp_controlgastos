@@ -77,5 +77,29 @@ namespace DAL
             };
             return Buscar("ObtenerMovimientosPorUsuario", parametros);
         }
+
+        public List<Movimiento> GetMovimientosByUsuarioYMes(int usuarioId, int mes, int anio)
+        {
+            SqlParameter[] parametros = new SqlParameter[]
+            {
+                new SqlParameter("@usuarioid", usuarioId),
+                new SqlParameter("@mes", mes),
+                new SqlParameter("@anio", anio)
+            };
+            return Buscar("ObtenerMovimientosPorUsuarioYMesYAnio", parametros);
+        }
+
+        public List<Movimiento> BuscarMovimientos(int usuarioId, int mes, int anio, int? moneda, string descripcion)
+        {
+            SqlParameter[] parametros = new SqlParameter[]
+            {
+                new SqlParameter("@usuarioid", usuarioId),
+                new SqlParameter("@mes", mes),
+                new SqlParameter("@anio", anio),
+                new SqlParameter("@moneda", moneda.HasValue ? (object)moneda.Value : DBNull.Value),
+                new SqlParameter("@descripcion", string.IsNullOrWhiteSpace(descripcion) ? (object)DBNull.Value : descripcion)
+            };
+            return Buscar("BuscarMovimientos", parametros);
+        }
     }
 }

@@ -20,6 +20,8 @@ namespace TP_DYAS_Control_Gastos_2025
         private Form loginForm;
         private Form movimientoForm;
         private Form usuarioForm;
+        private Form resumenMovimientoForm;
+        private Form simuladorPrestamoForm;
 
         public ControlDeGastosForm()
         {
@@ -42,6 +44,7 @@ namespace TP_DYAS_Control_Gastos_2025
             menuStrip1.Enabled = false;
             CerrarForm(movimientoForm);
             CerrarForm(usuarioForm);
+            CerrarForm(resumenMovimientoForm);
 
             loginForm = new LoginForm();
             loginForm.MdiParent = this;
@@ -64,10 +67,14 @@ namespace TP_DYAS_Control_Gastos_2025
             {
                 movimientosToolStripMenuItem.Visible = true;
                 usuariosToolStripMenuItem.Visible = false;
+                resumenDeMovimientosToolStripMenuItem.Visible = true;
+                simuladorDePréstamoToolStripMenuItem.Visible = true;
             } else
             {
                 movimientosToolStripMenuItem.Visible = false;
                 usuariosToolStripMenuItem.Visible = true;
+                resumenDeMovimientosToolStripMenuItem.Visible = false;
+                simuladorDePréstamoToolStripMenuItem.Visible = false;
             }
         }
 
@@ -86,6 +93,16 @@ namespace TP_DYAS_Control_Gastos_2025
             CrearForm(usuarioForm, () => new UsuarioForm(), (form) => usuarioForm = form);
         }
 
+        private void resumenDeMovimientosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearForm(resumenMovimientoForm, () => new ResumenMovimientoForm(), (form) => resumenMovimientoForm = form);
+        }
+
+        private void simuladorDePréstamoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CrearForm(simuladorPrestamoForm, () => new SimuladorPrestamoForm(), (form) => simuladorPrestamoForm = form);
+        }
+
         private void CrearForm(Form form, Func<Form> creatorFunc, Func<Form, Form> assignorFunc)
         {
             if (form == null)
@@ -93,6 +110,7 @@ namespace TP_DYAS_Control_Gastos_2025
                 form = creatorFunc();
                 form.MdiParent = this;
                 form.FormClosed += (s, args) => movimientoForm = null;
+                form.Disposed += (s, args) => movimientoForm = null;
                 form.Show();
             }
             else
@@ -111,6 +129,5 @@ namespace TP_DYAS_Control_Gastos_2025
                 form = null;
             }
         }
-
     }
 }

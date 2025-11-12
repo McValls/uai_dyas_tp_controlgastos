@@ -34,8 +34,10 @@
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.movimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resumenDeMovimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.simuladorDePréstamoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +60,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.movimientosToolStripMenuItem,
+            this.resumenDeMovimientosToolStripMenuItem,
+            this.simuladorDePréstamoToolStripMenuItem,
             this.usuariosToolStripMenuItem,
             this.cerrarSesiónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -73,6 +77,13 @@
             this.movimientosToolStripMenuItem.Text = "Movimientos";
             this.movimientosToolStripMenuItem.Click += new System.EventHandler(this.movimientosToolStripMenuItem_Click);
             // 
+            // resumenDeMovimientosToolStripMenuItem
+            // 
+            this.resumenDeMovimientosToolStripMenuItem.Name = "resumenDeMovimientosToolStripMenuItem";
+            this.resumenDeMovimientosToolStripMenuItem.Size = new System.Drawing.Size(157, 20);
+            this.resumenDeMovimientosToolStripMenuItem.Text = "Resumen de Movimientos";
+            this.resumenDeMovimientosToolStripMenuItem.Click += new System.EventHandler(this.resumenDeMovimientosToolStripMenuItem_Click);
+            // 
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
@@ -86,6 +97,13 @@
             this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
+            // 
+            // simuladorDePréstamoToolStripMenuItem
+            // 
+            this.simuladorDePréstamoToolStripMenuItem.Name = "simuladorDePréstamoToolStripMenuItem";
+            this.simuladorDePréstamoToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
+            this.simuladorDePréstamoToolStripMenuItem.Text = "Simulador de Préstamo";
+            this.simuladorDePréstamoToolStripMenuItem.Click += new System.EventHandler(this.simuladorDePréstamoToolStripMenuItem_Click);
             // 
             // ControlDeGastosForm
             // 
@@ -114,6 +132,8 @@
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem movimientosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resumenDeMovimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem simuladorDePréstamoToolStripMenuItem;
     }
 }
 

@@ -26,6 +26,19 @@ namespace BLL
             return movimientoMapper.GetMovimientosByUsuario(usuario.Id);
         }
 
+        public List<Movimiento> ListarMovimientosPorMes(int mes, int anio)
+        {
+            Usuario usuario = SessionManager.Instance.GetUsuario();
+            return movimientoMapper.GetMovimientosByUsuarioYMes(usuario.Id, mes, anio);
+        }
+
+        public List<Movimiento> BuscarMovimientos(int mes, int anio, Moneda? moneda, string descripcion)
+        {
+            Usuario usuario = SessionManager.Instance.GetUsuario();
+            int? monedaValue = moneda.HasValue ? (int?)moneda.Value : null;
+            return movimientoMapper.BuscarMovimientos(usuario.Id, mes, anio, monedaValue, descripcion);
+        }
+
         public void AgregarMovimiento(string tipo, decimal monto, Moneda moneda, string descripcion)
         {
             Usuario usuario = SessionManager.Instance.GetUsuario();
@@ -62,8 +75,14 @@ namespace BLL
         public decimal CalcularSaldoActual(Moneda moneda)
         {
             List<Movimiento> movimientos = ListarMovimientos().FindAll(movimiento => movimiento.Moneda == moneda);
+            return CalcularSaldo(movimientos, moneda);
+        }
+
+        public decimal CalcularSaldo(List<Movimiento> movimientos, Moneda moneda)
+        {
+            List<Movimiento> movimientosFiltrados = movimientos.FindAll(movimiento => movimiento.Moneda == moneda);
             decimal saldoAcumulado = 0;
-            movimientos.ForEach(movimiento =>             {
+            movimientosFiltrados.ForEach(movimiento => {
                 saldoAcumulado = movimiento.Acumular(saldoAcumulado);
             });
 
