@@ -44,6 +44,7 @@
     <Compile Include="Acceso.cs" />
     <Compile Include="ConfiguracionPrestamoMapper.cs" />
     <Compile Include="Mapper.cs" />
+    <Compile Include="PrestamoMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioMapper.cs" />
     <Compile Include="MovimientoMapper.cs" />
@@ -55,8 +56,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SQL\01_create_db - Copia.sql" />
+    <Content Include="SQL\01_create_db.sql" />
+    <Content Include="SQL\mock_data.sql" />
     <Content Include="SQL\02_insert_configs_prestamos.sql" />
+    <Content Include="SQL\Store Procedures\InsertarPrestamos.sql" />
+    <Content Include="SQL\Store Procedures\ObtenerPrestamos.sql" />
     <Content Include="SQL\Store Procedures\ObtenerMovimientosPorUsuarioYMesYAnio.sql" />
     <Content Include="SQL\Store Procedures\ObtenerUsuarios.sql" />
     <Content Include="SQL\Store Procedures\InsertarUsuarios.sql" />

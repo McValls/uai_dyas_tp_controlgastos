@@ -89,15 +89,23 @@ namespace DAL
             return Buscar("ObtenerMovimientosPorUsuarioYMesYAnio", parametros);
         }
 
-        public List<Movimiento> BuscarMovimientos(int usuarioId, int mes, int anio, int? moneda, string descripcion)
+        public List<Movimiento> BuscarMovimientos(int usuarioId, 
+            int? mes, 
+            int? anio, 
+            int? moneda, 
+            string descripcion,
+            DateTime? desde,
+            DateTime? hasta)
         {
             SqlParameter[] parametros = new SqlParameter[]
             {
                 new SqlParameter("@usuarioid", usuarioId),
-                new SqlParameter("@mes", mes),
-                new SqlParameter("@anio", anio),
+                new SqlParameter("@mes", mes.HasValue? mes.Value : (object) DBNull.Value),
+                new SqlParameter("@anio", anio.HasValue? anio.Value : (object) DBNull.Value),
                 new SqlParameter("@moneda", moneda.HasValue ? (object)moneda.Value : DBNull.Value),
-                new SqlParameter("@descripcion", string.IsNullOrWhiteSpace(descripcion) ? (object)DBNull.Value : descripcion)
+                new SqlParameter("@descripcion", string.IsNullOrWhiteSpace(descripcion) ? (object)DBNull.Value : descripcion),
+                new SqlParameter("@desde", desde.HasValue ? (object)desde.Value : DBNull.Value),
+                new SqlParameter("@hasta", hasta.HasValue ? (object)hasta.Value : DBNull.Value)
             };
             return Buscar("BuscarMovimientos", parametros);
         }

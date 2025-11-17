@@ -32,11 +32,11 @@ namespace BLL
             return movimientoMapper.GetMovimientosByUsuarioYMes(usuario.Id, mes, anio);
         }
 
-        public List<Movimiento> BuscarMovimientos(int mes, int anio, Moneda? moneda, string descripcion)
+        public List<Movimiento> BuscarMovimientos(int? mes, int? anio, Moneda? moneda, string descripcion, DateTime? desde, DateTime? hasta)
         {
             Usuario usuario = SessionManager.Instance.GetUsuario();
             int? monedaValue = moneda.HasValue ? (int?)moneda.Value : null;
-            return movimientoMapper.BuscarMovimientos(usuario.Id, mes, anio, monedaValue, descripcion);
+            return movimientoMapper.BuscarMovimientos(usuario.Id, mes, anio, monedaValue, descripcion, desde, hasta);
         }
 
         public void AgregarMovimiento(string tipo, decimal monto, Moneda moneda, string descripcion)

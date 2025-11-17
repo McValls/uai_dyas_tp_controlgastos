@@ -1,4 +1,6 @@
 using BE;
+using BE.Entidades;
+using BE.ManejoUsuario;
 using DAL;
 using System;
 using System.Collections.Generic;
@@ -76,7 +78,7 @@ namespace BLL
             }
         }
 
-        //public void CalcularPrestamo(
+        
     }
 }
 

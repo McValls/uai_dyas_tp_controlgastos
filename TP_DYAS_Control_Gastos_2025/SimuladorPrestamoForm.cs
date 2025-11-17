@@ -1,4 +1,5 @@
 ﻿using BE;
+using BE.Entidades;
 using BLL;
 using System;
 using System.Collections.Generic;
@@ -17,44 +18,92 @@ namespace TP_DYAS_Control_Gastos_2025
 
         private readonly ConfiguracionPrestamoBLL configuracionPrestamoBLL;
         private readonly MovimientoBLL movimientoBLL;
-        private readonly int valorTipoDeCambio = 1350;
+        private readonly PrestamoBLL prestamoBLL;
+        private Prestamo prestamo;
 
         public SimuladorPrestamoForm()
         {
             InitializeComponent();
             configuracionPrestamoBLL = new ConfiguracionPrestamoBLL();
             movimientoBLL = new MovimientoBLL();
-            LlenarCampos();
+            prestamoBLL = new PrestamoBLL();
         }
 
         private void LlenarCampos()
         {
             DateTime fechaInicio = DateTime.Now.AddYears(-1);
-            List<Movimiento> movimientos = movimientoBLL.ListarMovimientos().Where(movimiento => movimiento.Fecha >= fechaInicio).ToList();
+            List<Movimiento> movimientos = movimientoBLL.BuscarMovimientos(null, null, null, null, fechaInicio, DateTime.Now);
 
-            List<Movimiento> ingresos = movimientos.Where(movimiento => movimiento.GetTipo() == "Ingreso").ToList();
-            List<Movimiento> gastos = movimientos.Where(movimiento => movimiento.GetTipo() == "Gasto").ToList();
+            decimal saldoTotal = movimientoBLL.CalcularSaldo(movimientos, Moneda.PESOS) +
+                (movimientoBLL.CalcularSaldo(movimientos, Moneda.DOLARES) * prestamoBLL.TipoDeCambio());
+            
+            saldoTotalTextBox.Text = saldoTotal.ToString("#.00");
+            tipoDeCambio.Text = prestamoBLL.TipoDeCambio().ToString("N2");
 
-            decimal totalIngresosPesos = movimientoBLL.CalcularSaldo(ingresos, Moneda.PESOS);
-            decimal totalGastosPesos = movimientoBLL.CalcularSaldo(gastos, Moneda.PESOS);
+            ConfiguracionPrestamo configuracionPrestamo = (ConfiguracionPrestamo)configuracionPrestamoComboBox.SelectedValue;
 
-            decimal totalIngresosDolares = movimientoBLL.CalcularSaldo(ingresos, Moneda.DOLARES);
-            decimal totalGastosDolares = movimientoBLL.CalcularSaldo(gastos, Moneda.DOLARES);
-
-            promedioGastos.Text = ((totalGastosPesos + (totalGastosDolares * valorTipoDeCambio)) / 12).ToString("N2");
-            promedioIngresos.Text = ((totalIngresosPesos + (totalIngresosDolares * valorTipoDeCambio)) / 12).ToString("N2");
-            tipoDeCambio.Text = valorTipoDeCambio.ToString("N2");
+            tasaInteresTextBox.Text = (configuracionPrestamo.TasaInteres * 100).ToString("");
         }
 
         private void SimuladorPrestamoForm_Load(object sender, EventArgs e)
         {
             configuracionPrestamoComboBox.DataSource = configuracionPrestamoBLL.ListarConfiguraciones();
             configuracionPrestamoComboBox.DisplayMember = "PlazoMeses";
+
+            montoAPrestarTextBox.ReadOnly = true;
+            solicitarPrestamoBtn.Enabled = false;
+            LlenarCampos();
         }
 
         private void calcularPrestamoButton_Click(object sender, EventArgs e)
         {
+            ConfiguracionPrestamo configuracionPrestamo = (ConfiguracionPrestamo)configuracionPrestamoComboBox.SelectedValue;
 
+            Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo);
+
+            ActualizarPrestamo(prestamo);
+        }
+
+        private void ActualizarPrestamo(Prestamo prestamo)
+        {
+            this.prestamo = prestamo;
+            montoAPrestarTextBox.Text = prestamo.Monto.ToString("#.00");
+            valorCuotaTextBox.Text = prestamo.GetValorCuota().ToString("#.00");
+            cantidadCuotasTextBox.Text = prestamo.GetCantidadCuotas().ToString();
+            totalADevolverTextBox.Text = prestamo.GetTotalADevolver().ToString("#.00");
+
+            montoAPrestarTextBox.ReadOnly = false;
+            solicitarPrestamoBtn.Enabled = true;
+        }
+
+        private void configuracionPrestamoComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LlenarCampos();
+        }
+
+        private void recalcularBtn_Click(object sender, EventArgs e)
+        {
+            ConfiguracionPrestamo configuracionPrestamo = (ConfiguracionPrestamo)configuracionPrestamoComboBox.SelectedValue;
+            decimal monto = decimal.Parse(montoAPrestarTextBox.Text);
+            Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo, monto);
+
+            ActualizarPrestamo(prestamo);
+        }
+
+        private void solicitarPrestamoBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                recalcularBtn_Click(sender, e);
+                prestamoBLL.CrearPrestamo(prestamo);
+
+                MessageBox.Show("Préstamo acreditado de correctamente");
+                this.Dispose();
+
+            } catch (Exception ex)
+            {
+                MessageBox.Show($"Error creando el préstamo: {ex.Message}");
+            }
         }
     }
 }

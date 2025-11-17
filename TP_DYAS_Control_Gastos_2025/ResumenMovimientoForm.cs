@@ -61,7 +61,7 @@ namespace TP_DYAS_Control_Gastos_2025
 
         private void RefrescarTabla(int mes, int anio, Moneda? moneda = null, string descripcion = null)
         {
-            List<Movimiento> movimientos = movimientoBLL.BuscarMovimientos(mes, anio, moneda, descripcion);
+            List<Movimiento> movimientos = movimientoBLL.BuscarMovimientos(mes, anio, moneda, descripcion, null, null);
             dataGridView.DataSource = movimientos.Select(movimiento => new MovimientoDataSource(movimiento)).ToList();
 
             decimal acumuladoPesos = movimientoBLL.CalcularSaldo(movimientos, Moneda.PESOS);

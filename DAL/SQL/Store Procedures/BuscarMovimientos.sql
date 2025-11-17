@@ -3,7 +3,9 @@ CREATE PROCEDURE BuscarMovimientos
 	@mes INT,
 	@anio INT,
 	@moneda INT = NULL,
-	@descripcion NVARCHAR(255) = NULL
+	@descripcion NVARCHAR(255) = NULL,
+	@desde DATETIME = NULL,
+	@hasta DATETIME = NULL
 AS
 BEGIN
 	SELECT 
@@ -20,9 +22,11 @@ BEGIN
 	FROM Movimientos M
 	INNER JOIN Usuarios U ON M.UsuarioId = U.Id
 	WHERE M.UsuarioId = @UsuarioId
-		AND MONTH(M.Fecha) = @mes
-		AND YEAR(M.Fecha) = @anio
+		AND (@mes IS NULL OR MONTH(M.Fecha) = @mes)
+		AND (@anio IS NULL OR YEAR(M.Fecha) = @anio)
 		AND (@moneda IS NULL OR M.Moneda = @moneda)
-		AND (@descripcion IS NULL OR M.Descripcion LIKE '%' + @descripcion + '%');
+		AND (@descripcion IS NULL OR M.Descripcion LIKE '%' + @descripcion + '%')
+		AND (@desde IS NULL OR M.Fecha >= @desde)
+		AND (@hasta IS NULL OR M.Fecha <= @hasta);
 END;
 

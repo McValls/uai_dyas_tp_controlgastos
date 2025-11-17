@@ -46,6 +46,7 @@
     <Compile Include="Entidades\Ingreso.cs" />
     <Compile Include="Entidades\Movimiento.cs" />
     <Compile Include="Entidades\Moneda.cs" />
+    <Compile Include="Entidades\Prestamo.cs" />
     <Compile Include="Entidades\TipoUsuario.cs" />
     <Compile Include="ManejoUsuario\CryptoManager.cs" />
     <Compile Include="ManejoUsuario\SessionManager.cs" />

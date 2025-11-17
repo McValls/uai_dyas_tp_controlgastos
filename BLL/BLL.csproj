@@ -44,6 +44,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="ConfiguracionPrestamoBLL.cs" />
     <Compile Include="MovimientoBLL.cs" />
+    <Compile Include="PrestamoBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioBLL.cs" />
   </ItemGroup>
