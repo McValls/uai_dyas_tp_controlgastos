@@ -10,7 +10,7 @@ BEGIN
 	INSERT INTO Prestamos (Id, Monto, ConfiguracionPrestamoId, FechaCreacion, UsuarioId)
 	VALUES ((SELECT COALESCE(MAX(Id), 0) + 1 FROM Prestamos), @Monto, @ConfiguracionPrestamoId, @FechaCreacion, @UsuarioId);
 	
-	SET @Descripcion = 'Préstamo recibido - ID: ' + CAST((SELECT MAX(Id) FROM Prestamos) AS NVARCHAR(10));
+	SET @Descripcion = 'Prestamo recibido - ID: ' + CAST((SELECT MAX(Id) FROM Prestamos) AS NVARCHAR(10));
 	
 	INSERT INTO Movimientos (Id, Tipo, Monto, Moneda, Descripcion, Fecha, UsuarioId)
 	VALUES ((SELECT COALESCE(MAX(Id), 0) + 1 FROM Movimientos), 'Ingreso', @Monto, 0, @Descripcion, @FechaCreacion, @UsuarioId);
