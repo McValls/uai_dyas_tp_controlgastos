@@ -20,11 +20,13 @@ namespace TP_DYAS_Control_Gastos_2025
         {
             InitializeComponent();
             this.movimientoBLL = new MovimientoBLL();
-            List<Mes> meses = new List<Mes>();
+            List<Mes> meses = new List<Mes>
+            {
+                new Mes(null, "Todos")
+            };
             for (int i = 1; i <= 12; i++)
             {
-                Mes mes = new Mes(i, new DateTime(1, i, 1).ToString("MMMM"));
-                meses.Add(mes);
+                meses.Add(new Mes(i, new DateTime(1, i, 1).ToString("MMMM")));
             }
             mesesComboBox.DataSource = meses;
             mesesComboBox.DisplayMember = "Nombre";
@@ -56,10 +58,10 @@ namespace TP_DYAS_Control_Gastos_2025
 
         private void ResumenMovimientoForm_Load(object sender, EventArgs e)
         {
-            RefrescarTabla(DateTime.Now.Month, DateTime.Now.Year);
+            RefrescarTabla();
         }
 
-        private void RefrescarTabla(int mes, int anio, Moneda? moneda = null, string descripcion = null)
+        private void RefrescarTabla(int? mes = null, int? anio = null, Moneda? moneda = null, string descripcion = null)
         {
             List<Movimiento> movimientos = movimientoBLL.BuscarMovimientos(mes, anio, moneda, descripcion, null, null);
             dataGridView.DataSource = movimientos.Select(movimiento => new MovimientoDataSource(movimiento)).ToList();
@@ -74,7 +76,7 @@ namespace TP_DYAS_Control_Gastos_2025
         private void aplicarButton_Click(object sender, EventArgs e)
         {
             int anioSeleccionado = (int)aniosComboBox.SelectedItem;
-            int mesSeleccionado = ((Mes)mesesComboBox.SelectedItem).Numero;
+            int? mesSeleccionado = ((Mes)mesesComboBox.SelectedItem).Numero;
             Moneda? monedaSeleccionada = ((MonedaItem)monedaComboBox.SelectedItem).Valor;
             string descripcionBuscada = descripcionTextBox.Text;
 
@@ -105,16 +107,16 @@ namespace TP_DYAS_Control_Gastos_2025
 
         public class Mes
         {
-            private readonly int numero;
+            private readonly int? numero;
             private readonly string nombre;
 
-            public Mes(int numero, string nombre)
+            public Mes(int? numero, string nombre)
             {
                 this.numero = numero;
                 this.nombre = nombre;
             }
 
-            public int Numero => numero;
+            public int? Numero => numero;
 
             public string Nombre => nombre;
         }

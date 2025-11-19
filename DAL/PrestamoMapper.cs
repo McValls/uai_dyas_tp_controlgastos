@@ -48,5 +48,14 @@ namespace DAL
 
             return new Prestamo(id, monto, configuracionPrestamo, fechaCreacion, usuario);
         }
+
+        public List<Prestamo> ObtenerPrestamosByUsuario(int usuarioId)
+        {
+            SqlParameter[] parametros = new SqlParameter[]
+            {
+                new SqlParameter("@UsuarioId", usuarioId)
+            };
+            return Buscar("ObtenerPrestamos", parametros);
+        }
     }
 }

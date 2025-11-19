@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -28,15 +29,9 @@ namespace TP_DYAS_Control_Gastos_2025.UserControls
         }
         private bool ValidarPassword(string password)
         {
-            bool result = true;
-            if (password.Length < 8)
-                result = false;
-            if (!password.Any(char.IsUpper))
-                result = false;
-            if (!password.Any(char.IsLower))
-                result = false;
-            if (!password.Any(char.IsDigit))
-                result = false;
+            // Regex pattern: minimum 8 characters, at least one uppercase, one lowercase, and one digit
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$";
+            bool result = Regex.IsMatch(password, pattern);
 
             if (!result)
             {

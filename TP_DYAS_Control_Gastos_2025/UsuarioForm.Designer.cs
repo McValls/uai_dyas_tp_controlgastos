@@ -131,10 +131,11 @@
             // 
             // Eliminar
             // 
-            this.Eliminar.HeaderText = "Acción";
+            this.Eliminar.HeaderText = "Eliminar";
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.Text = "Eliminar";
             this.Eliminar.ToolTipText = "Eliminar";
+            this.Eliminar.UseColumnTextForButtonValue = true;
             // 
             // UsuarioForm
             // 
