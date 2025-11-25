@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}</ProjectGuid>
+    <ProjectGuid>{2C2D2087-6681-49E3-AE34-91BE7701C616}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BLL</RootNamespace>
-    <AssemblyName>BLL</AssemblyName>
+    <RootNamespace>SERVICES</RootNamespace>
+    <AssemblyName>SERVICES</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,26 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="ConfiguracionPrestamoBLL.cs" />
-    <Compile Include="MovimientoBLL.cs" />
-    <Compile Include="PrestamoBLL.cs" />
+    <Compile Include="TipoDeCambioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsuarioBLL.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BE\BE.csproj">
-      <Project>{1178aac1-fd33-4c48-83d2-8a1d210965af}</Project>
-      <Name>BE</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{4d362eaf-a29e-43fe-a651-704e91293795}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SERVICES\SERVICES.csproj">
-      <Project>{2c2d2087-6681-49e3-ae34-91be7701c616}</Project>
-      <Name>SERVICES</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

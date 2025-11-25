@@ -56,9 +56,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SQL\02_init_tables.sql" />
+    <Content Include="SQL\init.bat" />
     <Content Include="SQL\01_create_db.sql" />
     <Content Include="SQL\mock_data.sql" />
-    <Content Include="SQL\02_insert_configs_prestamos.sql" />
+    <Content Include="SQL\03_insert_configs_prestamos.sql" />
     <Content Include="SQL\Store Procedures\InsertarPrestamos.sql" />
     <Content Include="SQL\Store Procedures\ObtenerPrestamos.sql" />
     <Content Include="SQL\Store Procedures\ObtenerMovimientosPorUsuarioYMesYAnio.sql" />

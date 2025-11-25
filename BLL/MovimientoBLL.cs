@@ -32,7 +32,13 @@ namespace BLL
             return movimientoMapper.GetMovimientosByUsuarioYMes(usuario.Id, mes, anio);
         }
 
-        public List<Movimiento> BuscarMovimientos(int? mes, int? anio, Moneda? moneda, string descripcion, DateTime? desde, DateTime? hasta)
+        public List<Movimiento> BuscarMovimientos(
+            int? mes = null, 
+            int? anio = null, 
+            Moneda? moneda = null, 
+            string descripcion = null, 
+            DateTime? desde = null, 
+            DateTime? hasta = null)
         {
             Usuario usuario = SessionManager.Instance.GetUsuario();
             int? monedaValue = moneda.HasValue ? (int?)moneda.Value : null;

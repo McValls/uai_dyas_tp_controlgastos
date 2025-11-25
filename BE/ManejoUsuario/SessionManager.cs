@@ -13,9 +13,10 @@ namespace BE.ManejoUsuario
 
         private Usuario usuario;
 
-        public delegate void OnChangesHandler();
-        public event OnChangesHandler OnLogin;
-        public event OnChangesHandler OnLogout;
+        public delegate void OnLoginDelegate();
+        public delegate void OnLogoutDelegate();
+        public event OnLoginDelegate OnLogin;
+        public event OnLogoutDelegate OnLogout;
 
         private SessionManager()
         {

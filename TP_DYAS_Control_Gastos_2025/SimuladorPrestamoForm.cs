@@ -52,6 +52,7 @@ namespace TP_DYAS_Control_Gastos_2025
 
             montoAPrestarTextBox.ReadOnly = true;
             solicitarPrestamoBtn.Enabled = false;
+            recalcularBtn.Enabled = false;
             LlenarCampos();
         }
 
@@ -59,9 +60,16 @@ namespace TP_DYAS_Control_Gastos_2025
         {
             ConfiguracionPrestamo configuracionPrestamo = (ConfiguracionPrestamo)configuracionPrestamoComboBox.SelectedValue;
 
-            Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo);
+            try
+            {
+                Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo);
+                ActualizarPrestamo(prestamo);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error calculando el préstamo: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
-            ActualizarPrestamo(prestamo);
         }
 
         private void ActualizarPrestamo(Prestamo prestamo)
@@ -73,6 +81,7 @@ namespace TP_DYAS_Control_Gastos_2025
             totalADevolverTextBox.Text = prestamo.GetTotalADevolver().ToString("#.00");
 
             montoAPrestarTextBox.ReadOnly = false;
+            recalcularBtn.Enabled = true;
             solicitarPrestamoBtn.Enabled = true;
         }
 
@@ -85,9 +94,14 @@ namespace TP_DYAS_Control_Gastos_2025
         {
             ConfiguracionPrestamo configuracionPrestamo = (ConfiguracionPrestamo)configuracionPrestamoComboBox.SelectedValue;
             decimal monto = decimal.Parse(montoAPrestarTextBox.Text);
-            Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo, monto);
-
-            ActualizarPrestamo(prestamo);
+            try {
+                Prestamo prestamo = prestamoBLL.CalcularPrestamo(configuracionPrestamo, monto);
+                ActualizarPrestamo(prestamo);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error recalculando el préstamo: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void solicitarPrestamoBtn_Click(object sender, EventArgs e)

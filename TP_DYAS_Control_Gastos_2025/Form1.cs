@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static BE.ManejoUsuario.SessionManager;
 
 namespace TP_DYAS_Control_Gastos_2025
 {
@@ -42,9 +43,11 @@ namespace TP_DYAS_Control_Gastos_2025
         private void UsuarioDesloguado()
         {
             menuStrip1.Enabled = false;
-            CerrarForm(movimientoForm);
-            CerrarForm(usuarioForm);
-            CerrarForm(resumenMovimientoForm);
+            CerrarForm(movimientoForm, () => movimientoForm = null);
+            CerrarForm(usuarioForm, () => usuarioForm = null);
+            CerrarForm(resumenMovimientoForm, () => resumenMovimientoForm = null);
+            CerrarForm(simuladorPrestamoForm, () => simuladorPrestamoForm = null);
+            CerrarForm(loginForm, () => loginForm = null);
 
             loginForm = new LoginForm();
             loginForm.MdiParent = this;
@@ -109,8 +112,8 @@ namespace TP_DYAS_Control_Gastos_2025
             {
                 form = creatorFunc();
                 form.MdiParent = this;
-                form.FormClosed += (s, args) => movimientoForm = null;
-                form.Disposed += (s, args) => movimientoForm = null;
+                form.FormClosed += (s, args) => assignorFunc(null) ;
+                form.Disposed += (s, args) => assignorFunc(null);
                 form.Show();
             }
             else
@@ -120,13 +123,13 @@ namespace TP_DYAS_Control_Gastos_2025
             assignorFunc(form);
         }
 
-        private void CerrarForm(Form form)
+        private void CerrarForm(Form form, Func<Form> closeFunc)
         {
             if (form != null)
             {
                 form.Dispose();
                 form.Close();
-                form = null;
+                closeFunc();
             }
         }
     }
