@@ -1,4 +1,6 @@
-﻿namespace TP_DYAS_Control_Gastos_2025
+﻿using System.Windows.Forms;
+
+namespace TP_DYAS_Control_Gastos_2025
 {
     partial class LoginForm
     {
@@ -118,7 +120,6 @@
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

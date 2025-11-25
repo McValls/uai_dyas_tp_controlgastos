@@ -3,17 +3,40 @@
   "WorkspaceRootPath": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:movimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}|..\\BLL\\BLL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\bll\\prestamobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\obtenerprestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\prestamomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\insertarprestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}|..\\BLL\\BLL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\bll\\prestamobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\insertarprestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\02_insert_configs_prestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
@@ -25,7 +48,7 @@
       "AbsoluteMoniker": "D:0:0:{1178AAC1-FD33-4C48-83D2-8A1D210965AF}|..\\BE\\BE.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\be\\entidades\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\tp_dyas_control_gastos_2025\\simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:simuladorprestamoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -45,40 +68,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F15B6B5-B5C0-4B49-9D38-3794999EBAAC}|..\\BLL\\BLL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\bll\\movimientobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00CC5877-3B08-4AF5-B4DA-606D9475AF4E}|GUI.csproj|solutionrelative:resumenmovimientoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\buscarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\buscarmovimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\01_create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\01_create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\02_insert_configs_prestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\02_insert_configs_prestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\mock_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\mock_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\insertarprestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D362EAF-A29E-43FE-A651-704E91293795}|..\\DAL\\DAL.csproj|d:\\documentos\\uai\\dise\u00F1o y arquitectura de software\\repos\\uai_dyas_tp_controlgastos\\dal\\sql\\store procedures\\insertarprestamos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,8 +77,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -97,32 +90,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PrestamoMapper.cs",
-              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\PrestamoMapper.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\PrestamoMapper.cs",
-              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\PrestamoMapper.cs",
-              "RelativeToolTip": "..\\DAL\\PrestamoMapper.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCEAAAA9AAAAAAAAAA==",
+              "Title": "ResumenMovimientoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs",
+              "RelativeDocumentMoniker": "ResumenMovimientoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ResumenMovimientoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T02:38:38.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T01:10:42.466Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SimuladorPrestamoForm.cs",
-              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs",
-              "RelativeDocumentMoniker": "SimuladorPrestamoForm.cs",
-              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs",
-              "RelativeToolTip": "SimuladorPrestamoForm.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAswFEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MovimientoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs",
+              "RelativeDocumentMoniker": "MovimientoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\MovimientoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MovimientoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:54:09.742Z",
+              "WhenOpened": "2025-11-25T01:10:38.692Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:05:28.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ObtenerPrestamos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\ObtenerPrestamos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\ObtenerPrestamos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\ObtenerPrestamos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\ObtenerPrestamos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T03:02:39.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrestamoMapper.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\PrestamoMapper.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\PrestamoMapper.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\PrestamoMapper.cs",
+              "RelativeToolTip": "..\\DAL\\PrestamoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T02:38:38.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResumenMovimientoForm.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs",
+              "RelativeDocumentMoniker": "ResumenMovimientoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs",
+              "RelativeToolTip": "ResumenMovimientoForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T01:25:58.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:05:26.232Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SimuladorPrestamoForm.cs",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs",
+              "RelativeDocumentMoniker": "SimuladorPrestamoForm.cs",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs",
+              "RelativeToolTip": "SimuladorPrestamoForm.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwGEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T01:54:09.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Prestamo.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BE\\Entidades\\Prestamo.cs",
               "RelativeDocumentMoniker": "..\\BE\\Entidades\\Prestamo.cs",
@@ -130,85 +194,79 @@
               "RelativeToolTip": "..\\BE\\Entidades\\Prestamo.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAADsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:42:20.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:42:20.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "02_insert_configs_prestamos.sql ",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\02_insert_configs_prestamos.sql",
               "RelativeDocumentMoniker": "..\\DAL\\SQL\\02_insert_configs_prestamos.sql",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\02_insert_configs_prestamos.sql",
               "RelativeToolTip": "..\\DAL\\SQL\\02_insert_configs_prestamos.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-11T02:43:35.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T02:43:35.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "01_create_db.sql ",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\01_create_db.sql",
               "RelativeDocumentMoniker": "..\\DAL\\SQL\\01_create_db.sql",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\01_create_db.sql",
               "RelativeToolTip": "..\\DAL\\SQL\\01_create_db.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-11T02:47:20.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T02:47:20.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InsertarPrestamos.sql ",
-              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
-              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
-              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
-              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-16T02:33:38.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PrestamoBLL.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BLL\\PrestamoBLL.cs",
               "RelativeDocumentMoniker": "..\\BLL\\PrestamoBLL.cs",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BLL\\PrestamoBLL.cs",
               "RelativeToolTip": "..\\BLL\\PrestamoBLL.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T01:54:33.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "InsertarPrestamos.sql ",
+              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
+              "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
+              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
+              "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\InsertarPrestamos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-16T02:33:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SimuladorPrestamoForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs",
               "RelativeDocumentMoniker": "SimuladorPrestamoForm.cs",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\SimuladorPrestamoForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "SimuladorPrestamoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:35:54.241Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-15T19:35:54.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "mock_data.sql ",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\mock_data.sql",
               "RelativeDocumentMoniker": "..\\DAL\\SQL\\mock_data.sql",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\mock_data.sql",
               "RelativeToolTip": "..\\DAL\\SQL\\mock_data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-15T19:57:09.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:57:09.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ConfiguracionPrestamoBLL.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BLL\\ConfiguracionPrestamoBLL.cs",
               "RelativeDocumentMoniker": "..\\BLL\\ConfiguracionPrestamoBLL.cs",
@@ -216,24 +274,22 @@
               "RelativeToolTip": "..\\BLL\\ConfiguracionPrestamoBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:35:06.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:35:06.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "BuscarMovimientos.sql ",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\BuscarMovimientos.sql",
               "RelativeDocumentMoniker": "..\\DAL\\SQL\\Store Procedures\\BuscarMovimientos.sql",
               "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\SQL\\Store Procedures\\BuscarMovimientos.sql",
               "RelativeToolTip": "..\\DAL\\SQL\\Store Procedures\\BuscarMovimientos.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-15T19:44:38.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:44:38.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "MovimientoBLL.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BLL\\MovimientoBLL.cs",
               "RelativeDocumentMoniker": "..\\BLL\\MovimientoBLL.cs",
@@ -241,12 +297,11 @@
               "RelativeToolTip": "..\\BLL\\MovimientoBLL.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:36:43.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:36:43.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "UsuarioBLL.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\BLL\\UsuarioBLL.cs",
               "RelativeDocumentMoniker": "..\\BLL\\UsuarioBLL.cs",
@@ -254,12 +309,11 @@
               "RelativeToolTip": "..\\BLL\\UsuarioBLL.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T01:49:09.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T01:49:09.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "MovimientoMapper.cs",
               "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\DAL\\MovimientoMapper.cs",
               "RelativeDocumentMoniker": "..\\DAL\\MovimientoMapper.cs",
@@ -267,21 +321,7 @@
               "RelativeToolTip": "..\\DAL\\MovimientoMapper.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAADwv1wAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T19:37:06.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResumenMovimientoForm.cs",
-              "DocumentMoniker": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs",
-              "RelativeDocumentMoniker": "ResumenMovimientoForm.cs",
-              "ToolTip": "D:\\Documentos\\UAI\\Dise\u00F1o y Arquitectura de Software\\Repos\\uai_dyas_tp_controlgastos\\TP_DYAS_Control_Gastos_2025\\ResumenMovimientoForm.cs",
-              "RelativeToolTip": "ResumenMovimientoForm.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAswD8AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T01:25:58.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T19:37:06.476Z"
             }
           ]
         }

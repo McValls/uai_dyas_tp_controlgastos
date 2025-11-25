@@ -20,6 +20,7 @@ namespace TP_DYAS_Control_Gastos_2025
         public LoginForm()
         {
             InitializeComponent();
+            this.ControlBox = false;
         }
 
         private void confirmarBtn_Click(object sender, EventArgs e)

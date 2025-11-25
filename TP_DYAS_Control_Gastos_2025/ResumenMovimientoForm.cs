@@ -56,10 +56,10 @@ namespace TP_DYAS_Control_Gastos_2025
 
         private void ResumenMovimientoForm_Load(object sender, EventArgs e)
         {
-            RefrescarTabla(DateTime.Now.Month, DateTime.Now.Year);
+            RefrescarTabla();
         }
 
-        private void RefrescarTabla(int mes, int anio, Moneda? moneda = null, string descripcion = null)
+        private void RefrescarTabla(int? mes = null, int? anio = null, Moneda? moneda = null, string descripcion = null)
         {
             List<Movimiento> movimientos = movimientoBLL.BuscarMovimientos(mes, anio, moneda, descripcion, null, null);
             dataGridView.DataSource = movimientos.Select(movimiento => new MovimientoDataSource(movimiento)).ToList();
