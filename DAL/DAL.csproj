@@ -56,6 +56,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="datasource.xml" />
     <Content Include="SQL\02_init_tables.sql" />
     <Content Include="SQL\init.bat" />
     <Content Include="SQL\01_create_db.sql" />

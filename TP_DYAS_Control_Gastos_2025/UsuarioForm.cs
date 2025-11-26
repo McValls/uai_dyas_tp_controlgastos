@@ -92,7 +92,7 @@ namespace TP_DYAS_Control_Gastos_2025
 
         private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dataGridView.Columns[e.ColumnIndex].HeaderText == "Acción")
+            if (dataGridView.Columns[e.ColumnIndex].HeaderText == "Eliminar")
             {
                 UsuarioDataSource usuario = (UsuarioDataSource)dataGridView.Rows[e.RowIndex].DataBoundItem;
                 try

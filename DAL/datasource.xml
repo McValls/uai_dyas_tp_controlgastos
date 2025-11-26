@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectionPropertiesCollection>
+    <ConnectionProperties environment="home">
+        <DataSource>DESKTOP-2MSA6DF</DataSource>
+        <InitialCatalog>Control_Gastos</InitialCatalog>
+    </ConnectionProperties>
+</ConnectionPropertiesCollection>
+
+
